@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!-- Toastify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+    <title>assignment no 5</title>
+</head>
+
+<body>
+    
+  <header >
+    <nav class="navbar navbar-expand-lg py-2" data-bs-theme="dark"id="navbar">
+        <div class="container" >
+          <a class="navbar-brand  text-white" href="#">Assignment</a>
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon  "></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white " aria-current="page" href="#">Chapter 1-7</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input id="search" class="form-control me-2 px-2 bg-white " type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success  " type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+</header><main>
+        <div class="container">
+            <h3 class="heading  text-center mt-3">Chapter # 21-25 | String & it's methods</h3>
+            <hr>
+            <br>
+            <div class="row">
+                <div class="col  col-lg-6 col-12 mt-3 ">
+                    <h4 class="text-center">Input</h4>
+                    <div class="border border-black py-4 px-4">
+                        <input id="input1" type="text "   class="text w-75 " placeholder="Type your text here">
+                    <button id="remove" class="clear border border-dark-subtle">Clear</button>
+                    </div>
+                     
+                </div>
+                <div class="col col-lg-6 col-12  mt-3 ">
+                    <h4 class="text-center">Orignal String</h4>
+                    <div id="original-string" class="text-center">
+                        
+
+                    </div>
+
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col col-lg-6 col-12 mt-3 ">
+
+                    <h4 class="text-center">Buttons</h4>
+                    <div class="border border-black py-4 px-4 text-center">
+
+                  
+                                <button onclick="lowerCase()" class="btn btn-danger m-1 px-4">Convert to lowerCase</button>
+                           
+                                <button onclick="upperCase()" class="btn btn-danger m-1 px-4">Convert to UpperCase</button>
+                            
+                                <button onclick="capitalize()" class="btn btn-danger m-1 px-4">Convert to Capitalize</button>
+                            
+                                <button onclick="betterFormatting()" class="btn btn-danger m-1 px-4  ">Better formating</button>
+
+                                <button onclick="printCities()" class="btn btn-danger m-1 px-4">Print All cities</button>
+
+                                <button onclick="addCity()" class="btn btn-danger m-1 px-4">Add your city in list</button>
+
+                                <button onclick="checkCity()" class="btn btn-danger m-1 px-4">Check your city in list</button>
+
+                                <button onclick="findWord()" class="btn btn-danger m-1 px-4">Find this word</button>
+                                <button onclick="replaceWord()" class="btn btn-danger m-1 px-4">Replace this word</button>
+                       
+
+                    </div>
+                </div>
+                <div class="col col-lg-6 col-12 mt-3 text-center ">
+                    <h4 class="text-center">Output/Result</h4>
+                   <div id="output" onclick="" class="border rounded-1 border-secondary-subtle border-dark p-4"></div>
+                    <div class="d-flex justify-content-center align-content-center "><button id="clear-output" onclick="clearOutput()" class="btn border border-1 border-black " >Clear Output</button></div>
+                    
+            </div>
+        </div>
+    </main>
+    <footer class="mb-0 mt-5" >
+      <p class="container mb-0 text-center footer ">&copy 2024 All Rights Reserved.</p>
+
+  </footer>
+
+    <!-- custom js  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

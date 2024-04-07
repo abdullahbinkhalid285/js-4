@@ -1,0 +1,33 @@
+
+footer{
+    background-color: #1d3357;
+    color: white;
+
+}
+
+#clear-output{
+    margin-top: 8px;
+    margin-bottom: 60px;
+}
+#navbar{
+    background-color: #1d3357;
+    
+}
+#search{
+    color: black;
+}
+span{
+    margin: 9px;
+}
+#string{
+    background-color: #1d3357;
+    color: white;
+    padding: 13px;
+    border-radius: 5px;
+}
+#original-string{
+    background-color: #1d3357;
+    color: white;
+    padding: 10px;
+    border-radius:5px;
+}
